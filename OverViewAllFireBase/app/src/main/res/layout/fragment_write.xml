@@ -1,0 +1,105 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#E43F3F"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context="com.example.bakhtiyar.overviewallfirebase.WriteFragment">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       >
+
+       <LinearLayout
+
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:paddingTop="56dp"
+           android:paddingLeft="24dp"
+           android:paddingRight="24dp">
+
+           <ImageView android:src="@drawable/logo"
+               android:layout_width="wrap_content"
+               android:layout_height="72dp"
+               android:layout_marginBottom="24dp"
+               android:layout_gravity="center_horizontal" />
+
+           <!-- Email Label -->
+           <android.support.design.widget.TextInputLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="8dp"
+               android:layout_marginBottom="8dp">
+               <EditText android:id="@+id/name"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:inputType="textEmailAddress"
+                   android:hint="Name" />
+           </android.support.design.widget.TextInputLayout>
+
+           <!-- Password Label -->
+           <android.support.design.widget.TextInputLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="8dp"
+               android:layout_marginBottom="8dp">
+               <EditText android:id="@+id/father"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+
+                   android:hint="Father Name"/>
+           </android.support.design.widget.TextInputLayout>
+
+
+           <android.support.design.widget.TextInputLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="8dp"
+               android:layout_marginBottom="8dp">
+               <EditText android:id="@+id/Salary"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+
+                   android:hint="Salary"/>
+           </android.support.design.widget.TextInputLayout>
+
+           <ImageButton
+
+               android:id="@+id/img_button"
+               android:background="#2F4F4F"
+               android:layout_gravity="center"
+               android:layout_width="100dp"
+               android:layout_height="150dp" />
+
+
+           <android.support.v7.widget.AppCompatButton
+               android:id="@+id/submit"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="24dp"
+               android:layout_marginBottom="24dp"
+               android:padding="12dp"
+
+               android:text="Submit"/>
+
+           <android.support.v7.widget.AppCompatButton
+               android:id="@+id/logout"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="24dp"
+               android:layout_marginBottom="24dp"
+               android:padding="12dp"
+
+               android:text="Logout"/>
+
+
+
+       </LinearLayout>
+
+
+
+
+   </ScrollView>
+
+</FrameLayout>

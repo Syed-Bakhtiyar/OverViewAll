@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "499129675403",
+    "firebase_url": "https://overviewallfirebase.firebaseio.com",
+    "project_id": "overviewallfirebase",
+    "storage_bucket": "overviewallfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499129675403:android:c688403b7eb3f06b",
+        "android_client_info": {
+          "package_name": "com.example.bakhtiyar.overviewallfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499129675403-km1g3nm1p7lgnt9dj45rq5g2u4g3f70o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKkplCwIGDyQssZ07UIzIRqEVQ7EYQATY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
